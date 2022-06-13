@@ -1,6 +1,6 @@
 {
   "name": "zabbix-agent2",
-  "version": "1.2",
+  "version": "2.2",
   "slug": "zabbix-agent2",
   "description": "Zabbix agent 2",
   "arch": [
@@ -20,7 +20,7 @@
   "ports": {
     "10050/tcp": 10050
   },
-  "image": "pschmitt/home-assistant-addon-{arch}-zabbix-agent2",
+  "image": "zabbix/zabbix-agent2",
   "options": {
     "server": "zabbix-server.local",
     "hostname": "homeassistant"
