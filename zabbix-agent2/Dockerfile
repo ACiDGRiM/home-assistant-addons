@@ -1,4 +1,4 @@
-FROM zabbix/zabbix-agent2:latest
+FROM zabbix-agent2
 
 ARG BUILD_ARCH
 ARG BUILD_VERSION
