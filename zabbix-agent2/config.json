@@ -20,7 +20,7 @@
   "ports": {
     "10050/tcp": 10050
   },
-  "image": "zabbix/zabbix-agent2:latest",
+  "image": "zabbix/zabbix-agent2",
   "options": {
     "server": "zabbix-server.local",
     "hostname": "homeassistant"
