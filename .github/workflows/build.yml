@@ -13,12 +13,6 @@ jobs:
       fail-fast: false
       matrix:
         addon:
-          - avahi-reflector
-          - flicd
-          - picamera
-          - pilight
-          - tailscale
-          - zabbix-agent
           - zabbix-agent2
         arch:
           - aarch64
@@ -26,12 +20,7 @@ jobs:
           - armhf
           - i386
         exclude:
-          - addon: picamera
-            arch: amd64
-          - addon: picamera
-            arch: i386
-          - addon: pilight
-            arch: i386
+          -
     steps:
       - name: Checkout repo
         uses: actions/checkout@master
